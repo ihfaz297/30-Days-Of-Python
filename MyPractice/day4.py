@@ -1,82 +1,82 @@
-# print("P\tV\tn\tR\tT")
-# print("______________________________________")
-# P,V,n,R,T=2,8.314,0.141,8.314,14.142
-# tmpstr="%s\t%s\t%s\t%s\t%s"%(P,V,n,R,T)
-# print(tmpstr)
-# P,V,n,R,T=8.314,2,0.141,8.314,14.142
-# tmpstr="%s\t%s\t%s\t%s\t%s"%(P,V,n,R,T)
-# print(tmpstr)
-# P,V,n,R,T=1,16.628,0.141,8.314,14.142
-# tmpstr="%s\t%s\t%s\t%s\t%s\n"%(P,V,n,R,T)
-# P,V,n,R,T=2,8.314,0.141,8.314,14.142
-# tmpstr="%s\t%s\t%s\t%s\t%s"%(P,V,n,R,T)
-# print(tmpstr)
-# P,V,n,R,T=8.314,2,0.141,8.314,14.142
-# tmpstr="%s\t%s\t%s\t%s\t%s"%(P,V,n,R,T)
-# print(tmpstr)
-# P,V,n,R,T=1,16.628,0.141,8.314,14.142
-# tmpstr="%s\t%s\t%s\t%s\t%s\n"%(P,V,n,R,T)
-# print(tmpstr)
-# print("Ihfaz, print \"Hello world\".")
-# print('Days\tTopics\tExercises') # adding tab space or 4 spaces
-# print('Day 1\t5\t5')
-# print('Day 2\t6\t20')
-# print('Day 3\t5\t23')
-# print('Day 4\t1\t35')
-# print('This is a backslash  symbol (\\)') # To write a backslash
-# print('In every programming language it starts with \"Hello, World!\"') # to write a double quote inside a single quote
+print("P\tV\tn\tR\tT")
+print("______________________________________")
+P,V,n,R,T=2,8.314,0.141,8.314,14.142
+tmpstr="%s\t%s\t%s\t%s\t%s"%(P,V,n,R,T)
+print(tmpstr)
+P,V,n,R,T=8.314,2,0.141,8.314,14.142
+tmpstr="%s\t%s\t%s\t%s\t%s"%(P,V,n,R,T)
+print(tmpstr)
+P,V,n,R,T=1,16.628,0.141,8.314,14.142
+tmpstr="%s\t%s\t%s\t%s\t%s\n"%(P,V,n,R,T)
+P,V,n,R,T=2,8.314,0.141,8.314,14.142
+tmpstr="%s\t%s\t%s\t%s\t%s"%(P,V,n,R,T)
+print(tmpstr)
+P,V,n,R,T=8.314,2,0.141,8.314,14.142
+tmpstr="%s\t%s\t%s\t%s\t%s"%(P,V,n,R,T)
+print(tmpstr)
+P,V,n,R,T=1,16.628,0.141,8.314,14.142
+tmpstr="%s\t%s\t%s\t%s\t%s\n"%(P,V,n,R,T)
+print(tmpstr)
+print("Ihfaz, print \"Hello world\".")
+print('Days\tTopics\tExercises') # adding tab space or 4 spaces
+print('Day 1\t5\t5')
+print('Day 2\t6\t20')
+print('Day 3\t5\t23')
+print('Day 4\t1\t35')
+print('This is a backslash  symbol (\\)') # To write a backslash
+print('In every programming language it starts with \"Hello, World!\"') # to write a double quote inside a single quote
 
-# first_name='Fish'#input("Enter first name:")
-# last_name='Cakes'#input("Enter last name:")
-# formatted_str="You are %s %s."%(first_name,last_name)
+first_name='Fish'#input("Enter first name:")
+last_name='Cakes'#input("Enter last name:")
+formatted_str="You are %s %s."%(first_name,last_name)
 
 
-# #strnums
-# r=15548
-# pi=3.14159265358
-# area=pi*r**2
-# formatted_str="The area of circle with a radius %d is %4.4f."%(r,area)
-# fmstr="The area of circle with a radius {} is {:.4f}.".format(r,area) 
-# #its better to deal with strings in need of formatting, such as padded text or decimals, using .format or %s
-# fstr=f"The area of circle with a radius {r} is {area}."
-# print(formatted_str)
-# print(fmstr)
-# print(fstr)
-# python_libraries = ['Django', 'Flask', 'NumPy', 'Matplotlib','Pandas']
-# formated_string = 'The following are python libraries:%s' % (python_libraries)
-# print(formated_string)
+#strnums
+r=15548
+pi=3.14159265358
+area=pi*r**2
+formatted_str="The area of circle with a radius %d is %4.4f."%(r,area)
+fmstr="The area of circle with a radius {} is {:.4f}.".format(r,area) 
+#its better to deal with strings in need of formatting, such as padded text or decimals, using .format or %s
+fstr=f"The area of circle with a radius {r} is {area}."
+print(formatted_str)
+print(fmstr)
+print(fstr)
+python_libraries = ['Django', 'Flask', 'NumPy', 'Matplotlib','Pandas']
+formated_string = 'The following are python libraries:%s' % (python_libraries)
+print(formated_string)
 
-# ryzen="cake"
-# fmt = "babes i want %s for breakfast"%(ryzen)
-# print(fmt)
+ryzen="cake"
+fmt = "babes i want %s for breakfast"%(ryzen)
+print(fmt)
 
-# a, b=40.000000, 3.000000
-# print(f"babe it's {a/b:.1f} degress outside")
+a, b=40.000000, 3.000000
+print(f"babe it's {a/b:.1f} degress outside")
 
-# language='Python'
-# a,s,d,f,g,h=language
-# a=language[-6]
-# print(a)
-# a=language[-5]
-# print(a)
-# a=language[-4]
-# print(a)
-# a=language[-3]
-# print(a)
-# a=language[-2]
-# print(a)
-# a=language[-1]
-# print(a)
-# challenge="this is a test"
-# print(challenge[3::-1].capitalize())
+language='Python'
+a,s,d,f,g,h=language
+a=language[-6]
+print(a)
+a=language[-5]
+print(a)
+a=language[-4]
+print(a)
+a=language[-3]
+print(a)
+a=language[-2]
+print(a)
+a=language[-1]
+print(a)
+challenge="this is a test"
+print(challenge[3::-1].capitalize())
 
-# str=input("tell me a non-numeric fact: ")
-# if str.isnumeric():
-#     print("not cool dude")
-# else:
-#     print(f"feels nice to know that {str}")
-# challenge = '010'
-# print(challenge.isdigit())   # True
+str=input("tell me a non-numeric fact: ")
+if str.isnumeric():
+    print("not cool dude")
+else:
+    print(f"feels nice to know that {str}")
+challenge = '010'
+print(challenge.isdigit())   # True
 
 
 #1
